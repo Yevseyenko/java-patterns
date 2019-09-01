@@ -2,7 +2,7 @@ package com.patterns;
 
 public class Delegate {
     public static void main(String[] args) {
-        A a = new A();
+       A a = new A();
         a.f();
         Painter painter = new Painter();
         painter.setGraphics(new Square());
